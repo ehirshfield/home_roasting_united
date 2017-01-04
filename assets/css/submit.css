@@ -1,0 +1,28 @@
+.hr-custom{
+    border: transparent;
+}
+
+.navbar-custom{
+   background: transparent;
+   border-bottom: transparent;
+}
+
+.index-background{
+    background: url("../images/moka-pot.jpeg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:500px;
+}
+
+.custom-header {
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    
+}
+
+.custom-float{
+    float: right;
+}

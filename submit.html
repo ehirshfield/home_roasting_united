@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home Roasting United</title>
+        <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+         crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Patua+One|Titan+One" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/submit.css">
+    </head>
+    <body>
+        <div class="index-background">
+            <nav class="navbar navbar-default navbar-inverse navbar-custom" role="navigation">
+                <div class="container">                
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home Roasting United</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./submit.html">Submit a Post<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sign-up.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item custom-float">
+                            <a class="nav-link" href="./log-in.html">Log In</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="custom-header">
+                                <h1>
+                                    Submit a Roast Recipe
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    
+        </div>
+
+        <hr class="hr-custom">
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="form-recipe-name">Coffee Name</label>
+                                <input class="form-control" type="text" placeholder="Name This Coffee Roast" id="form-recipe-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-date">Date</label>
+                                <input class="form-control" type="date" placeholder="2017-01-19" id="form-date">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-batch-size">Batch Size</label>
+                                <input class="form-control" type="text" placeholder="14 oz, 3 cups, a handful, etc." id="form-batch-size">
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label">Roast Time</label>
+                                <label for="form-time-minutes" class="col-lg-2 col-form-label">Minutes</label>
+                                <div class="col-lg-2">
+                                    <input class="form-control" type="number" placeholder="5" id="form-time-minutes">
+                                </div>
+                                <label for="form-time-seconds" class="col-lg-2 col-form-label">Seconds</label>
+                                <div class="col-lg-2">
+                                    <input class="form-control" type="number" placeholder="32" id="form-time-seconds">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-roast-level">Roast Level</label>
+                                <input class="form-control" type="text" placeholder="City, City+, Full City, FC+, Vienna, French" id="form-roast-level">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-roaster-settings">Roaster Settings</label>
+                                <input class="form-control" type="text" placeholder="Roaster Settings" id="form-roaster-settings">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-preheat">Preheat Time and Temperature</label>
+                                <input class="form-control" type="text" placeholder="ex. 2 min on Low" id="form-preheat">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-yellowing">Yellowing</label>
+                                <input class="form-control" type="text" placeholder="Yellowing" id="form-yellowing">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-browning">Browning</label>
+                                <input class="form-control" type="text" placeholder="Browning" id="form-browning">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-first-crack">1st Crack</label>
+                                <input class="form-control" type="text" placeholder="1st Crack" id="form-first-crack">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-first-crack-ends">1st Crack Ends</label>
+                                <input class="form-control" type="text" placeholder="1st Crack Ends" id="form-first-crack-ends">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-end-drop">End/Drop</label>
+                                <input class="form-control" type="text" placeholder="End/Drop" id="form-end-drop">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-notes">Notes</label>
+                                <textarea class="form-control" type="text" placeholder="Notes" id="form-notes"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="hr-custom">
+
+        
+
+        <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>
