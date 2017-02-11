@@ -1,26 +1,9 @@
-var bcrypt = require("bcrypt");
-
 module.exports = function(sequelize, DataTypes) {
   var Recipe = sequelize.define('Recipe', {
-    email: {
-      type: DataTypes.STRING,
-      allowNull: false
+    title: {
+
     },
-    password: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    username: {
-      type: DataTypes.STRING
+    userId: {
+      
     }
-  },{
-    classMethods: {
-      generateHash: function(password){
-        return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
-      },
-      validatePassword: function(password) {
-        return bcrypt.compareSync(password, dbCheck);
-      }
-    }
-  })
 }
