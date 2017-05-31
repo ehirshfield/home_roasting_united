@@ -1,0 +1,73 @@
+.hr-custom{
+    border: transparent;
+}
+
+.navbar-custom{
+   background: transparent;
+   border-bottom: transparent;
+}
+
+.navbar-white{
+    color:white;
+}
+
+.index-background{
+    background: url("./images/layout.jpeg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:500px;
+}
+
+.about-background{
+    background: url("./images/camping.jpeg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:500px;
+}
+
+.contact-background{
+    background: url("./images/pour-over.jpeg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:500px;
+}
+
+.log-in-background{
+    background: url("./images/beans.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:500px;
+}
+
+.sign-up-background{
+    background: url("./images/laptop.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:500px;
+}
+
+.second-background{
+    background: url("./images/espresso.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:600px;
+}
+
+.custom-header {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+
+}
